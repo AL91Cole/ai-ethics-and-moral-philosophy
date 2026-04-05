@@ -62,6 +62,20 @@ In that sense, AI Guardian serves as a practical extension of the philosophical 
 - How can AI systems support people without replacing human judgment?
 - How should AI be designed to protect dignity, fairness, and meaningful human control?
 
+## Related Repositories
+
+This annotated bibliography also connects to my broader work in AI, cybersecurity, digital trust, and human-centered system design. While these repositories are separate from the bibliography itself, they reflect how the ethical questions explored in this project can extend into practical and technical contexts.
+
+### AI Guardian Web Shield
+A privacy-first browser security project focused on helping users better understand online risk, suspicious content, and safer decision-making through clearer and more accessible security guidance.
+
+**Repository:** [AI Guardian Web Shield](https://github.com/AL91Cole/ai-guardian-web-shield)
+
+### AI Guardian Assistant: Project Labyrinth
+A defensive zero-trust security simulator focused on access control, anomaly-based evaluation, private vault protection, audit visibility, and deception-based containment.
+
+**Repository:** [AI Guardian Assistant: Project Labyrinth](https://github.com/AL91Cole/ai-guardian-assistant-project-labyrinth)
+
 ## Author
 
 **Alan Cole**  
