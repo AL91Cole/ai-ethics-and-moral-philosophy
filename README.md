@@ -50,6 +50,18 @@ This project draws on:
 
 AI is not only a technical issue. It is also a moral and human issue. Every AI system reflects choices about values, priorities, risks, and power. This repository explores how philosophy can help guide those choices responsibly.
 
+## Applied Ethics in Practice: AI Guardian Assistant Security Systems and Networks
+
+This repository also connects moral philosophy to a practical design concept: **AI Guardian Assistant Security Systems and Networks**.
+
+AI Guardian is a defensive security concept that applies ethical concerns from this course to the design of AI-supported systems. It is grounded in ideas such as accountability, human oversight, transparency, moral limits, and protection against harm. Rather than treating AI as an independent moral authority, this concept assumes that humans must remain responsible for how AI systems are designed, governed, and used.
+
+In that sense, AI Guardian serves as a practical extension of the philosophical questions explored throughout this repository:
+- Who is accountable when AI affects people?
+- What does trustworthy AI actually require?
+- How can AI systems support people without replacing human judgment?
+- How should AI be designed to protect dignity, fairness, and meaningful human control?
+
 ## Author
 
 **Alan Cole**  
