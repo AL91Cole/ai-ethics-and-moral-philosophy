@@ -1,25 +1,60 @@
 # AI Guardian Assistant Security Systems and Networks
 
-AI Guardian Assistant Security Systems and Networks is a defensive AI security concept that translates ethical concerns into system design.
+**Document type:** Applied proposal
 
-## Why It Belongs in This Repository
+AI Guardian is a family of defensive, privacy-first security concepts that translates ethical commitments into system architecture. It combines zero-trust access decisions, least privilege, private vault protection, transparent policy enforcement, accessible guidance, tamper-evident audit records, and carefully bounded deception.
 
-This project reflects several core themes from this course:
+## Ethical Foundation
 
-- AI should not be treated as the primary moral agent
-- Human beings remain responsible for design and deployment
-- Trust in AI must be earned through accountability and limits
-- AI systems should protect dignity, fairness, and user control
-- Ethics must be more than branding and should shape real system behavior
+- AI is not treated as the morally responsible authority.
+- Humans remain accountable for purpose, policy, deployment, intervention, and repair.
+- Trust is earned through evidence, limits, transparency, and meaningful human challenge.
+- Dignity, privacy, autonomy, fairness, accessibility, and civil liberties constrain security power.
+- Security decisions may protect and contain; they may not retaliate or punish.
+- No single human or AI process may silently rewrite the protected ethical core.
 
-## Concept Summary
+## Conceptual Components
 
-AI Guardian is imagined as a protective security architecture that helps monitor, evaluate, and respond to risks in ways that prioritize human oversight, transparency, and ethical constraints.
+### Guardian policy and zero trust
 
-## Ethical Questions It Raises
+Every access request is evaluated in context. Identity, MFA, device trust, role, requested resource, and anomaly signals can inform `ALLOW`, `DENY`, or tightly controlled `ROUTE` decisions. No user, device, service, administrator, or network location receives implicit trust.
 
-- How much authority should AI have in security decisions?
-- When should human override be required?
-- How can an AI defense system avoid becoming invasive or coercive?
-- What safeguards are needed to prevent abuse of power?
-- How can security systems protect people without reducing them to data points?
+### Privacy vaults
+
+Sensitive resources use owner- or role-limited authorization, encryption, minimized plaintext exposure, auditability, and rapid revocation. Zero trust applies to access—not to a person's worth.
+
+### Labyrinth deception layer
+
+Suspicious sessions may be routed into an isolated environment containing synthetic decoys and honeytokens. The Labyrinth protects real resources and preserves defensive evidence. It must not hack back, damage outside systems, punish an actor, use real personal data as bait, or pursue activity beyond the authorized environment.
+
+### Human oversight and evidence
+
+High-impact decisions require understandable reasons, confidence and uncertainty, qualified review, safe shutdown, and an appeal or correction path where people may be affected. AI summaries remain separate from original evidence.
+
+## Required Separation of Powers
+
+- Policy authors should not be able to alter evidence.
+- Evidence reviewers should not control core policy alone.
+- Operators should receive only the access required for their role.
+- Core revisions require documented multi-stakeholder governance.
+- Emergency intervention may stop operation without permitting a secret rewrite of safeguards.
+
+## Related Documents
+
+- [`../frameworks/bounded-moral-learning.md`](../frameworks/bounded-moral-learning.md)
+- [`privacy-consent-accessibility.md`](privacy-consent-accessibility.md)
+- [`governance-accountability-and-redress.md`](governance-accountability-and-redress.md)
+- [`../case-studies/guardian-labyrinth-ethical-boundaries.md`](../case-studies/guardian-labyrinth-ethical-boundaries.md)
+- [`standards-crosswalk.md`](standards-crosswalk.md)
+
+## Ethical Questions Requiring Continued Review
+
+- Which decisions may be automated, and which require prior human approval?
+- What evidence justifies routing a session into deception rather than denying it?
+- How are false positives detected, corrected, and remedied?
+- How much telemetry is necessary and proportionate?
+- When may protected evidence be disclosed outside the organization?
+- How are civil liberties protected in government or critical-infrastructure deployment?
+- What independent evidence demonstrates that safeguards work?
+
+AI Guardian should be judged by its actual restraint and protection of people, not by the power of its security features.
