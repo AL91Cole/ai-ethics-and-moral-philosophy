@@ -43,6 +43,10 @@ Use descriptive headings, plain-language summaries, meaningful link text, alt te
 
 Do not publish exploitable details, credentials, personal data, or evidence from a real incident in a public issue. Security concerns involving a related implementation should be reported through that repository's documented private security channel.
 
+See [SECURITY.md](SECURITY.md). Use synthetic examples instead of real conversations, student work, identifying case records, account exports, screenshots of private systems, or production logs. Review document metadata and attachments before publishing. Removing a file in a later commit does not remove previous copies or revoke exposed credentials.
+
+Stage intended files, then run `node --test scripts/repository-privacy.test.mjs` and `node scripts/repository-privacy.mjs`. The dependency-free check scans tracked files, including staged additions. It reports rule names and file paths without printing matching content. It cannot detect all secrets or personal data, and binary content still needs manual review.
+
 ## Pull Request Checklist
 
 - [ ] I identified the document type.
@@ -52,6 +56,8 @@ Do not publish exploitable details, credentials, personal data, or evidence from
 - [ ] I considered privacy, accessibility, misuse, and power.
 - [ ] I stated important limitations and unresolved disagreement.
 - [ ] I checked links, headings, and Markdown rendering.
+- [ ] I used synthetic examples and reviewed attachments and metadata for private information.
+- [ ] I ran the repository privacy checks after staging my intended files.
 
 ## Protected-Core Changes
 

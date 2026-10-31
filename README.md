@@ -6,6 +6,8 @@ This project combines academic reflection with an original, evolving ethical pos
 
 > **Project status:** Living research repository. The personal frameworks in this project are proposals for examination and revision, not claims of universal philosophical consensus, legal advice, or proof that a system is ethical merely because it adopts this language.
 
+This repository contains research documents, not a running AI service. It implements no authentication, encryption, storage, or data-deletion service. Its security and privacy requirements are design proposals. See [repository security and contribution privacy](SECURITY.md) before sharing examples, reports, or attachments.
+
 ## Central Thesis
 
 Current AI is not the primary moral agent in AI ethics. It does not possess human moral understanding, lived experience, intention, or accountability. The deeper ethical issue is **human power**: who defines a system's goals, whose values shape it, who benefits, who bears the risk, and who can challenge its decisions.
@@ -119,6 +121,8 @@ The Guardian concept is governed by an important boundary: defensive security mu
 This framework should remain open to reasoned disagreement. Criticism is especially valuable when it identifies hidden power, exclusion, conflicting rights, unintended harm, inaccessible design, or a difference between an ethical promise and actual system behavior.
 
 See [`CONTRIBUTING.md`](CONTRIBUTING.md) before proposing a change.
+
+Run `node --test scripts/repository-privacy.test.mjs` and `node scripts/repository-privacy.mjs` before submitting changes. The check examines tracked files for common credential patterns, sensitive file names, and remote embeds. It does not replace review of personal information, PDFs, Git history, or GitHub account settings.
 
 ## License Status
 
